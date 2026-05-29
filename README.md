@@ -26,7 +26,6 @@
 
 - [About the Project](#-about-the-project)
 - [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
 - [Tech Stack](#-tech-stack)
 - [Dataset](#-dataset)
 - [Model Design — Siamese Neural Network](#-model-design--siamese-neural-network)
