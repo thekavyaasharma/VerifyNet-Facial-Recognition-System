@@ -331,28 +331,28 @@ python app.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Face-Recognition-System/
 │
-├── 📓 FCR.ipynb                         # Main Jupyter Notebook (full pipeline)
+├──FCR.ipynb                         # Main Jupyter Notebook (full pipeline)
 │
-├── 📁 Facial Recognition app/           # Kivy-based desktop application
+├──Facial Recognition app/           # Kivy-based desktop application
 │   └── app.py                           # Application entry point
 │
-├── 📁 data/
+├──data/
 │   └── negative/                        # LFW negative image samples
 │
-├── 📁 application_data/                 # Runtime data (created during execution)
+├──application_data/                 # Runtime data (created during execution)
 │   ├── input_image/                     # Live webcam capture stored here
 │   └── verification_images/            # 50 enrolled positive images
 │
-├── 📄 requirements.txt                  # Python dependencies
-├── 📄 project description               # Detailed project notes
-├── 📄 siamese neural networks.pdf       # Reference research paper
-├── 📄 .gitignore
-└── 📄 README.md
+├──requirements.txt                  # Python dependencies
+├──project description               # Detailed project notes
+├──siamese neural networks.pdf       # Reference research paper
+├──.gitignore
+└──README.md
 ```
 
 ---
@@ -371,7 +371,7 @@ Model performance is evaluated using metrics appropriate for biometric authentic
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Data collection pipeline (webcam + LFW dataset)
 - [x] Image preprocessing and TF data pipeline
@@ -381,15 +381,13 @@ Model performance is evaluated using metrics appropriate for biometric authentic
 - [x] Model evaluation (F1, Recall)
 - [x] Real-time verification function
 - [x] Kivy desktop application integration
-- [ ] Anti-spoofing layer (liveness detection)
 - [ ] Multi-face support in a single frame
 - [ ] Web API endpoint for remote authentication
-- [ ] Attendance logging with timestamp database
 - [ ] Mobile application (Android/iOS via Kivy)
 
 ---
 
-## 📖 References
+## References
 
 - **Siamese Neural Networks for One-shot Image Recognition** — Koch, Zemel, Salakhutdinov (2015) *(included as `siamese neural networks.pdf`)*
 - **Labeled Faces in the Wild (LFW)** — Kaggle Dataset
